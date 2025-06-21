@@ -77,8 +77,33 @@ fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
 
-Using enumerate() in a Loop
-Access both index and value in a loop:
+# Using enumerate() in a Loop
+# Access both index and value in a loop:
 fruits = ["apple", "banana", "cherry"]
 for index, fruit in enumerate(fruits):
     print(index, fruit)
+
+# Using zip() in a Loop
+# Combine two lists while looping:
+names = ["Muneeb", "Ali", "Sara"]
+scores = [90, 85, 78]
+
+for name, score in zip(names, scores):
+    print(f"{name}: {score}")
+
+# List Comprehension with Conditionals
+# One-line loop with logic to create new lists:
+nums = [1, 2, 3, 4, 5]
+squares = [x**2 for x in nums if x % 2 == 0]
+print(squares)
+
+# Nested Loops
+# Useful for 2D data like matrices:
+matrix = [
+    [1, 2],
+    [3, 4]
+]
+
+for row in matrix:
+    for num in row:
+        print(num)
