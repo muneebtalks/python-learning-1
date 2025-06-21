@@ -66,11 +66,11 @@ print(math.sqrt(25))   # 5.0
 
 #File I/O (Basics)
 # Writing to file
-with open("python-learning-1/demo.txt", "w") as f:
+with open("demo.txt", "w") as f:
     f.write("Hello World")
 
 # Reading from file
-with open("python-learning-1/demo.txt", "r") as f:
+with open("demo.txt", "r") as f:
     content = f.read()
     print(content)
 
