@@ -5,8 +5,8 @@
 print("Hello, World!")
 
 #Variables and Data Types
-name = "Muneeb"      # str
-age = 25             # int
+name = "Muneeb"      # string
+age = 25             # integer
 height = 5.9         # float
 is_student = True    # bool
 
@@ -15,8 +15,8 @@ name = input("Enter your name: ")
 print("Hi", name)
 
 #Type Conversion
-a = int("5")       # Convert string to int
-b = float("3.14")  # Convert string to float
+a = int("5")
+b = float("3.14")
 
 #Basic Operators
 a = 10
@@ -32,11 +32,11 @@ print(a ** b)  # Exponent
 
 #String Operations
 msg = "Hello"
-print(msg.upper())     # HELLO
-print(msg.lower())     # hello
-print(len(msg))        # 5
-print(msg[0])          # H
-print(msg[-1])         # o
+print(msg.upper())
+print(msg.lower())
+print(len(msg))
+print(msg[0])
+print(msg[-1])
 
 #Conditional Statements
 age = 18
@@ -48,7 +48,7 @@ else:
 
 #Type Checking
 x = 10
-print(type(x))   # <class 'int'>
+print(type(x))
 
 #Functions
 def greet(name):
@@ -58,7 +58,7 @@ greet("Muneeb")
 
 #Dictionaries
 person = {"name": "Muneeb", "age": 25}
-print(person["name"])        # Muneeb
+print(person["name"])
 
 #Importing Modules
 import math

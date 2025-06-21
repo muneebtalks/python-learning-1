@@ -35,26 +35,26 @@ while x < 5:
     x += 1
 
 #for Loop
-for i in range(5):     # 0 to 4
+for i in range(5):
     print(i)
 
 #Range
-range(5)        # 0, 1, 2, 3, 4
-range(1, 6)     # 1, 2, 3, 4, 5
-range(1, 10, 2) # 1, 3, 5, 7, 9
+range(5)
+range(1, 6)
+range(1, 10, 2)
 
 #Loop Control Statements
 # break
 for i in range(5):
     if i == 3:
         break
-    print(i)  # Output: 0, 1, 2
+    print(i)
 
 # continue
 for i in range(5):
     if i == 3:
         continue
-    print(i)  # Output: 0, 1, 2, 4
+    print(i)
 
 
 #Match Case
