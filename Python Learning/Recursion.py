@@ -62,3 +62,27 @@ print(doubled)  # [2, 4, 6, 8, 10]
 # Filter even numbers
 even = list(filter(lambda x: x % 2 == 0, nums))
 print(even)  # [2, 4]
+
+
+#Recursive Functions with Tracing
+def countdown(n):
+    if n == 0:
+        print("Done!")
+    else:
+        print(n)
+        countdown(n - 1)
+
+countdown(5)
+
+#Recursion with Memoization (Optimization)
+memo = {}
+
+def fib(n):
+    if n in memo:
+        return memo[n]
+    if n <= 1:
+        return n
+    memo[n] = fib(n - 1) + fib(n - 2)
+    return memo[n]
+
+print(fib(50))  # Fast!
